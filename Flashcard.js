@@ -1,19 +1,10 @@
-import { useState } from "react";
+const mongoose=require("mongoose");
 
-export default function Flashcard({ question, answer }) {
-  const [flip, setFlip] = useState(false);
+const flashcardSchema=new mongoose.Schema({
 
-  return (
-    <div
-      onClick={() => setFlip(!flip)}
-      style={{
-        border: "1px solid black",
-        padding: "20px",
-        margin: "10px",
-        cursor: "pointer",
-      }}
-    >
-      {flip ? answer : question}
-    </div>
-  );
-}
+question:String,
+answer:String
+
+});
+
+module.exports=mongoose.model("Flashcard",flashcardSchema);
