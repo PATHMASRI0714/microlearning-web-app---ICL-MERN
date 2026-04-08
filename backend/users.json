@@ -1,0 +1,106 @@
+[
+  {
+    "username": "Pathma",
+    "password": "password123",
+    "stats": {
+      "name": "Pathma",
+      "level": 12,
+      "xp": 3450,
+      "nextLevelXp": 4000,
+      "currentStreak": 14,
+      "longestStreak": 21,
+      "completedLessons": 87,
+      "badges": [
+        {
+          "id": "b1",
+          "name": "Fast Learner",
+          "icon": "zap"
+        },
+        {
+          "id": "b2",
+          "name": "7-Day Streak",
+          "icon": "fire"
+        },
+        {
+          "id": "b3",
+          "name": "Polyglot",
+          "icon": "globe"
+        }
+      ],
+      "recentActivity": [
+        3,
+        1,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        3,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        1,
+        3,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "username": "janani",
+    "password": "janani123",
+    "stats": {
+      "name": "janani",
+      "level": 1,
+      "xp": 50,
+      "nextLevelXp": 100,
+      "currentStreak": 1,
+      "longestStreak": 1,
+      "completedLessons": 1,
+      "badges": [],
+      "recentActivity": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  }
+]

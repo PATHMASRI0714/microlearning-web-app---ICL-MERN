@@ -1,0 +1,97 @@
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  margin: 16px;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.level-badge {
+  background: var(--accent-gradient);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 10px var(--accent-glow);
+}
+
+.xp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.xp-text {
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.xp-icon {
+  color: var(--accent-secondary);
+}
+
+.xp-max {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.xp-bar-bg {
+  width: 100px;
+  height: 6px;
+  background: var(--bg-secondary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.xp-bar-fill {
+  height: 100%;
+  background: var(--accent-gradient);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.streak-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.flame-icon {
+  color: var(--streak-flame);
+}
+
+@keyframes flicker {
+  0%, 100% { transform: scale(1) rotate(-2deg); opacity: 0.9; }
+  50% { transform: scale(1.1) rotate(2deg); opacity: 1; filter: drop-shadow(0 0 5px var(--streak-flame));}
+}
+
+.animated-flame {
+  animation: flicker 2s infinite ease-in-out;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--bg-secondary);
+  border: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--accent-primary);
+}
